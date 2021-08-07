@@ -1,0 +1,9 @@
+##Porta padrão é 8761server:  port: 8761##spring:##  application:##    name: 'eureka'
+
+##Configuração: Não vai se registrar no EUREKA e não vai guardar informações de outras aplicações
+eureka:
+  client:
+    fetch-registry: false
+    register-with-eureka: false
+    
+    
