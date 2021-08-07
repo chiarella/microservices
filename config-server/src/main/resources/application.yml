@@ -1,0 +1,5 @@
+server:
+  port: 8770
+  
+spring:  profiles:    active: native
+  cloud:    config:      server:        native:          search-locations: c:/Workspace/Microservices    
