@@ -1,10 +1,8 @@
 spring:
   datasource:
-    driver-class-name: com.mysql.cj.jdbc.Driver
     password: '071283'
     username: root
-    url: jdbc:mysql://localhost/fornecedor?useTimezone=true&serverTimezone=UTC&DB_CLOSE_ON_EXIT=FALSE    
+    url: jdbc:mysql://localhost:3306/fornecedor
   jpa:
-    database-platform: org.hibernate.dialect.MySQL8Dialect
     hibernate:
       ddl-auto: update
