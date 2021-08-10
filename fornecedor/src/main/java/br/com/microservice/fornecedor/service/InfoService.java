@@ -17,4 +17,9 @@ public class InfoService {
 		return infoRepository.findByEstado(estado);
 	}
 
+	public void save(Object object) {
+		// TODO Auto-generated method stub
+		
+	}
+
 }
