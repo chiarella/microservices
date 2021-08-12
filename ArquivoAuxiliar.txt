@@ -1,0 +1,20 @@
+create database fornecedor
+use fornecedor
+drop database 
+show tables 
+
+select * from info_fornecedor
+INSERT INTO info_fornecedor (id, endereco, estado, nome )  VALUES ( 1, 'Rua Jao', 'SP', 'Fornecedor de SP' );
+
+select * from pedido
+
+select * from pedido_item
+
+select * from produto
+INSERT INTO `fornecedor`.`produto` (`descricao`, `estado`, `nome`, `preco`) VALUES ('rosas', 'SP', 'rosas', '1.99');
+INSERT INTO `fornecedor`.`produto` (`descricao`, `estado`, `nome`, `preco`) VALUES ('trevo', 'SP', 'trevo', '0.99');
+INSERT INTO `fornecedor`.`produto` (`descricao`, `estado`, `nome`, `preco`) VALUES ('orquidea', 'MG', 'orquidea', '3.99');
+INSERT INTO `fornecedor`.`produto` (`descricao`, `estado`, `nome`, `preco`) VALUES ('girassol', 'MT', 'girassol', '1.55');
+INSERT INTO `fornecedor`.`produto` (`descricao`, `estado`, `nome`, `preco`) VALUES ('cacto', 'RJ', 'cacto', '12.55');
+
+
